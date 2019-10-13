@@ -58,8 +58,8 @@ html:
             div:
                 div style='width:40%;display:inline-block;vertical-align: top;':
                     h2:
-                        自動化演出
-                    Librian提供了一套邏輯來控制立繪位置、表情差分、是否可見。大部分場合無需手工控制。
+                        全自動演出
+                    Librian提供了一套立繪控制邏輯，包括位置、表情差分、可見性。幾乎無需手動操作。
                 div style='width:40%;display:inline-block;':
                     img.星 src='./決策樹.png' width='100%';
             br;
@@ -79,6 +79,25 @@ html:
                 div style='width:40%;display:inline-block;':
                     img.星 src='./嵌入.png' width='100%';
             br;
+            hr.synth:
+            div:
+                div style='width:16%;display:inline-block;':
+                    br; 
+                    img.極.星 src='./center示意圖.jpg' width='100%';
+                    br; 
+                    br; 
+                div style='width:60%;display:inline-block;vertical-align: top;':
+                    h2:
+                        Librian Center 籌建中！
+                    p: 
+                        Librian Center是自由免費的Librian項目分享平臺。
+                        br;
+                        在這裏發佈或連載你的作品，說不定是一個不錯的選擇。
+                    p: 
+                        small:
+                            不過可能需要一個github帳號才能使用。
+                    p:
+                        還有示意圖的文字讓我感到了我真是天才！
             hr.synth:
             h2:
                 演示視頻
