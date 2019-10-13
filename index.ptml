@@ -16,7 +16,7 @@ html:
                 img src='./librian.ico' style='mix-blend-mode:hard-light;height:1.5vw;width:1.5vw;';
                 Librian
             span.right:
-                a href="https://rimochan.github.io/Librian_doc/site/%E4%B8%BB%E9%A0%81.html":
+                a href="http://doc.librian.it":
                     i.fa.fa-file: 
                     讀說明書
                 a href="https://github.com/RimoChan/Librian/releases/download/v1907/Librian_win64_v1907.exe":
@@ -95,4 +95,4 @@ html:
             br;
             hr.synth:
             div:
-                MPL-2.0 | 屬於 リモ＠<a href='http://magic-lib.com'>魔法圖書館<a> 2019
+                ♞ | MPL-2.0 | 屬於 リモ＠magic-lib | 2019
