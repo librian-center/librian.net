@@ -8,7 +8,7 @@ html:
         link rel='stylesheet' href='./樣式.css';
         link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet";
         title:
-            Librian
+            Librian - 世界第一(自稱)的galgame引擎
     body.synth:
         div#bg:
         header.syn:
@@ -26,7 +26,7 @@ html:
                     i.fa.fa-github:
                     去Github</a>
         div#全:
-            img.頭圖 src='librian.png';
+            img.頭圖 src='./圖/librian.png';
             h1:
                 Librian 
             h2:
@@ -49,23 +49,23 @@ html:
             br;
             div:
                 div style='width:40%;display:inline-block;':
-                    img.極.星 src='./劇本.jpg' width='100%';
+                    img.極.星 src='./圖/劇本.jpg' width='100%';
                 div style='width:40%;display:inline-block;vertical-align: top;':
                     h2:
-                        劇本格式清晰自然
-                    編寫劇本很快很簡單。劇本格式取材於真實的劇本，只需要稍加瀏覽就能立即明白。
+                        劇本語法清晰自然
+                    製作黃油很快很簡單。劇本語法取材於真實的劇本，只需要稍加瀏覽就能立即明白。
             br;
             div:
                 div style='width:40%;display:inline-block;vertical-align: top;':
                     h2:
                         全自動演出
-                    Librian提供了一套立繪控制邏輯，包括位置、表情差分、可見性。幾乎無需手動操作。
+                    Librian提供了智能的立繪控制邏輯，包括位置、表情差分、可見性。幾乎無需手動操作。
                 div style='width:40%;display:inline-block;':
-                    img.星 src='./決策樹.png' width='100%';
+                    img.星 src='./圖/決策樹.png' width='100%';
             br;
             div:
                 div style='width:40%;display:inline-block;':
-                    img.極.星 src='./編寫.jpg' width='100%';
+                    img.極.星 src='./圖/編寫.jpg' width='100%';
                 div style='width:40%;display:inline-block;vertical-align: top;':
                     h2:
                         同步展示演出效果
@@ -75,15 +75,15 @@ html:
                 div style='width:40%;display:inline-block;vertical-align: top;':
                     h2:
                         嵌入代碼
-                    也可在Librian劇本中嵌入python和js，以控制後端和前端。
+                    也可在Librian劇本中直接嵌入python和js，以控制後端和前端。
                 div style='width:40%;display:inline-block;':
-                    img.星 src='./嵌入.png' width='100%';
+                    img.星 src='./圖/嵌入.png' width='100%';
             br;
             hr.synth:
             div:
                 div style='width:16%;display:inline-block;':
                     br; 
-                    img.極.星 src='./center示意圖.jpg' width='100%';
+                    img.極.星 src='./圖/center示意圖.jpg' width='100%';
                     br; 
                     br; 
                 div style='width:60%;display:inline-block;vertical-align: top;':
@@ -102,7 +102,7 @@ html:
             h2:
                 演示視頻
             a target='_blank' href='https://www.zhihu.com/video/1075418256290131968':
-                img src='視頻佔位.png';
+                img src='./圖/視頻佔位.png';
             br;
             br;
             a.synth.太陽交換 href='https://github.com/RimoChan/Librian/releases/download/v1907/Librian_win64_v1907.exe':
