@@ -40,16 +40,19 @@ h2
     font-size: 150%
     font-weight: normal
 
-
 header 
     text-align: left
-    // text-shadow: none
-    a>i 
-        transition: transform 0.2s
-    a:hover>i 
-        transform: scale(1.2)
-        transition: transform 0.1s
-        vertical-align: center
+    &.synth
+        justify-content: space-between
+    a
+        border-left: 1px solid rgba(0,0,0,0.2)
+        color: inherit
+        padding: 0vw 1vw
+        font-size: 80%
+        transition: text-shadow 0.3s
+        &:hover
+            transition: text-shadow 0.1s
+            text-shadow: 1px 1px 0.25vw #DDF, -1px -1px 0.25vw #DDF
 
 .星 
     transition: filter 1.2s
@@ -60,21 +63,6 @@ header
 .pagename
     display: inline-block
     margin-left: 1vw
-
-
-.right 
-    vertical-align: center
-    display: inline-block
-    float: right
-    margin-right: 1vw
-    a
-        color: inherit
-        vertical-align: center
-        display: inline-block
-        margin-right: 1vw
-        font-size: 80%
-
-
 
 
 .太陽交換 

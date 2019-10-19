@@ -11,18 +11,18 @@ html:
             Librian - 世界第一(自稱)的galgame引擎
     body.synth:
         div#bg:
-        header.syn:
+        header.synth:
             span.pagename:
                 img src='./librian.ico' style='mix-blend-mode:hard-light;height:1.5vw;width:1.5vw;';
                 Librian
-            span.right:
-                a href="http://doc.librian.it":
-                    i.fa.fa-file: 
-                    讀說明書
-                a href="https://github.com/RimoChan/Librian/releases/download/v1907/Librian_win64_v1907.exe":
-                    i.fa.fa-download:
-                    下載release版
-                a href="https://github.com/RimoChan/Librian":
+            div:
+                a href='http://doc.librian.it' target='_blank':
+                    i.fa.fa-file-text-o: 
+                    教程
+                a href='http://doc.librian.it/site/關於Librian/使用許可.html' target='_blank':
+                    i.fa.fa-copyright: 
+                    許可
+                a href='https://github.com/RimoChan/Librian' target='_blank':
                     i.fa.fa-github:
                     去Github</a>
         div#全:

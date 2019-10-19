@@ -41,12 +41,17 @@ h2 {
 
 header {
   text-align: left; }
-  header a > i {
-    transition: transform 0.2s; }
-  header a:hover > i {
-    transform: scale(1.2);
-    transition: transform 0.1s;
-    vertical-align: center; }
+  header.synth {
+    justify-content: space-between; }
+  header a {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    color: inherit;
+    padding: 0vw 1vw;
+    font-size: 80%;
+    transition: text-shadow 0.3s; }
+    header a:hover {
+      transition: text-shadow 0.1s;
+      text-shadow: 1px 1px 0.25vw #DDF, -1px -1px 0.25vw #DDF; }
 
 .星 {
   transition: filter 1.2s; }
@@ -57,18 +62,6 @@ header {
 .pagename {
   display: inline-block;
   margin-left: 1vw; }
-
-.right {
-  vertical-align: center;
-  display: inline-block;
-  float: right;
-  margin-right: 1vw; }
-  .right a {
-    color: inherit;
-    vertical-align: center;
-    display: inline-block;
-    margin-right: 1vw;
-    font-size: 80%; }
 
 .太陽交換 {
   display: inline-block; }
@@ -99,12 +92,6 @@ header {
   transform: translateX(-50%);
   opacity: 0.8;
   mix-blend-mode: multiply; }
-
-.底 {
-  position: fixed;
-  bottom: 0.5vw;
-  left: 50%;
-  transform: translate(-50%, 0); }
 
 .極 {
   box-shadow: 0px 0px 0.5vw;
