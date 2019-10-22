@@ -35,14 +35,14 @@ html:
             br;
             br;
 
-            a.synth.太陽交換 href='https://github.com/RimoChan/Librian/releases/download/v1907/Librian_win64_v1907.exe':
+            a.synth.太陽交換 href='https://github.com/RimoChan/Librian/releases/download/v1910/Librian_win64_v1910.exe':
                 span.b:
                     下載
                     small:
-                        (189 MB)
+                        (203 MB)
                 span.a:
                     i.fa.fa-windows style='color:#00adef':
-                    Librian v1907
+                    Librian v1910
             br;
             br;
             hr.synth;
@@ -105,7 +105,7 @@ html:
                 img src='./圖/視頻佔位.png';
             br;
             br;
-            a.synth.太陽交換 href='https://github.com/RimoChan/Librian/releases/download/v1907/Librian_win64_v1907.exe':
+            a.synth.太陽交換 href='https://github.com/RimoChan/Librian/releases/download/v1910/Librian_win64_v1910.exe':
                 span.b:
                     帕秋莉♂GO！
                 span.a:
