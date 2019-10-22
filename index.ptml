@@ -16,10 +16,10 @@ html:
                 img src='./librian.ico' style='mix-blend-mode:hard-light;height:1.5vw;width:1.5vw;';
                 Librian
             div:
-                a href='http://doc.librian.it' target='_blank':
+                a href='https://doc.librian.it' target='_blank':
                     i.fa.fa-file-text-o: 
                     教程
-                a href='http://doc.librian.it/site/關於Librian/使用許可.html' target='_blank':
+                a href='https://doc.librian.it/site/關於Librian/使用許可.html' target='_blank':
                     i.fa.fa-copyright: 
                     許可
                 a href='https://github.com/RimoChan/Librian' target='_blank':
