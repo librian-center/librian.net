@@ -7,6 +7,8 @@ html:
         link rel='stylesheet' href='https://synthetic.librian.it/synthetic.css'; 
         link rel='stylesheet' href='./樣式.css';
         link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet";
+        link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet"; 
+        script src="http://vjs.zencdn.net/4.12/video.js": 
         title:
             Librian - 世界第一(自稱)的galgame引擎
     body.synth:
@@ -101,8 +103,8 @@ html:
             hr.synth:
             h2:
                 演示視頻
-            a target='_blank' href='https://www.zhihu.com/video/1075418256290131968':
-                img src='./圖/視頻佔位.png';
+            div.視頻容器:
+                video.video-js.vjs-default-skin.vjs-big-play-centered controls preload="auto" width="684" height="540" data-setup='{"example_option":true}' poster='./視頻/截圖.jpg' src='./視頻/轉.webm':
             br;
             br;
             a.synth.太陽交換 href='https://github.com/RimoChan/Librian/releases/download/v1910/Librian_win64_v1910.exe':
