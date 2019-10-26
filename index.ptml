@@ -67,19 +67,11 @@ html:
             br;
             div:
                 div style='width:40%;display:inline-block;':
-                    img.極.星 src='./圖/編寫.jpg' width='100%';
-                div style='width:40%;display:inline-block;vertical-align: top;':
-                    h2:
-                        同步展示演出效果
-                    實時顯示劇本的目標效果，避免被水淹沒不知所措。
-            br;
-            div:
+                    img.星 src='./圖/嵌入.png' width='100%';
                 div style='width:40%;display:inline-block;vertical-align: top;':
                     h2:
                         嵌入代碼
                     也可在Librian劇本中直接嵌入python和js，以控制後端和前端。
-                div style='width:40%;display:inline-block;':
-                    img.星 src='./圖/嵌入.png' width='100%';
             br;
             hr.synth:
                 h2:
