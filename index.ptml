@@ -82,6 +82,20 @@ html:
                     img.星 src='./圖/嵌入.png' width='100%';
             br;
             hr.synth:
+                h2:
+                    一分鐘的演示視頻
+                div.視頻容器:
+                    video.video-js.vjs-default-skin.vjs-big-play-centered controls preload="auto" width="684" height="540" data-setup='{"example_option":true}' poster='./視頻/截圖.jpg' src='./視頻/轉.webm':
+                br;
+                br;
+                a.synth.太陽交換 href='https://github.com/RimoChan/Librian/releases/download/v1910/Librian_win64_v1910.exe':
+                    span.b:
+                        帕秋莉♂GO！
+                    span.a:
+                        立馬下載Librian！
+            br;
+            br;
+            hr.synth:
             div:
                 div style='width:16%;display:inline-block;':
                     br; 
@@ -100,20 +114,6 @@ html:
                             不過可能需要一個github帳號才能使用。
                     p:
                         還有示意圖的文字讓我感到了我真是天才！
-            hr.synth:
-            h2:
-                演示視頻
-            div.視頻容器:
-                video.video-js.vjs-default-skin.vjs-big-play-centered controls preload="auto" width="684" height="540" data-setup='{"example_option":true}' poster='./視頻/截圖.jpg' src='./視頻/轉.webm':
-            br;
-            br;
-            a.synth.太陽交換 href='https://github.com/RimoChan/Librian/releases/download/v1910/Librian_win64_v1910.exe':
-                span.b:
-                    帕秋莉♂GO！
-                span.a:
-                    立馬下載Librian！
-            br;
-            br;
             hr.synth:
             div:
                 ♞ | MPL-2.0 | 屬於 リモ＠magic-lib | 2019
