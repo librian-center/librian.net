@@ -45,56 +45,72 @@ html:
                 span.a:
                     i.fa.fa-windows style='color:#00adef':
                     Librian v1910
-            br;
-            br;
+                    
             hr.synth;
-            br;
-            div:
-                div style='width:40%;display:inline-block;':
-                    img.極.星 src='./圖/劇本.jpg' width='100%';
-                div style='width:40%;display:inline-block;vertical-align: top;':
-                    h2:
-                        劇本語法清晰自然
-                    製作黃油很快很簡單。劇本語法取材於真實的劇本，只需要稍加瀏覽就能立即明白。
-            br;
-            div:
-                div style='width:40%;display:inline-block;vertical-align: top;':
-                    h2:
-                        全自動演出
-                    Librian提供了智能的立繪控制邏輯，包括位置、表情差分、可見性。幾乎無需手動操作。
-                div style='width:40%;display:inline-block;':
-                    img.星 src='./圖/決策樹.png' width='100%';
-            br;
-            div:
-                div style='width:40%;display:inline-block;':
-                    img.星 src='./圖/嵌入.png' width='100%';
-                div style='width:40%;display:inline-block;vertical-align: top;':
-                    h2:
-                        嵌入代碼
-                    也可在Librian劇本中直接嵌入python和js，以控制後端和前端。
-            br;
+            div style="width:80%;margin:0 10%;":
+                div.二分:
+                    img.極.星 src='./圖/劇本.jpg';
+                    div:
+                        h2:
+                            劇本語法清晰自然
+                        製作黃油很快很簡單。劇本語法取材於真實的劇本，只需要稍加瀏覽就能立即明白。
+                br;
+                div.二分:
+                    div:
+                        h2:
+                            全自動演出
+                        Librian提供了智能的立繪控制邏輯，包括位置、表情差分、可見性。幾乎無需手動操作。
+                    img.星 src='./圖/決策樹.png';
+                br;
+                div.二分:
+                    img.星 src='./圖/嵌入.png';
+                    div:
+                        h2:
+                            嵌入代碼
+                        也可在Librian劇本中直接嵌入python和js，以控制後端和前端。
+            
             hr.synth:
                 h2:
                     一分鐘的演示視頻
                 div.視頻容器:
                     video.video-js.vjs-default-skin.vjs-big-play-centered controls preload="auto" width="684" height="540" data-setup='{"example_option":true}' poster='./視頻/截圖.jpg' src='./視頻/轉.webm':
                 br;
-                br;
                 a.synth.太陽交換 href='https://github.com/RimoChan/Librian/releases/download/v1910/Librian_win64_v1910.exe':
                     span.b:
                         帕秋莉♂GO！
                     span.a:
                         立馬下載Librian！
-            br;
-            br;
+            
             hr.synth:
-            div:
-                div style='width:16%;display:inline-block;':
+            h2:
+                援交～
+            div.分 style='width:72%; margin:0 14%;':
+                div style='width:73%;':
+                    試着建了一個QQ群。
+                    p:
+                        如果你需要使用幫助，或者對Librian和galgame製作有興趣，
+                        br;
+                        small:
+                            或者想觀看蘿莉圖片，
+                        br;
+                        都可以來這裏討論。
+                    p:
+                        總之，一起玩就好啦。
+                div style='width:25%;':
+                    img style='width:100%;' src='./圖/618775838.png';
+                    br;
+                    618775838
+                    sup:
+                        ↑
+                    
+            hr.synth:
+            div.分 style='width:76%; margin:0 12%;':
+                div style='width:21%;':
                     br; 
                     img.極.星 src='./圖/center示意圖.jpg' width='100%';
                     br; 
                     br; 
-                div style='width:60%;display:inline-block;vertical-align: top;':
+                div style='width:79%;':
                     h2:
                         Librian Center 籌建中！
                     p: 
@@ -106,6 +122,7 @@ html:
                             不過可能需要一個github帳號才能使用。
                     p:
                         還有示意圖的文字讓我感到了我真是天才！
+                        
             hr.synth:
             div:
                 ♞ | MPL-2.0 | 屬於 リモ＠magic-lib | 2019
