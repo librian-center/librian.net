@@ -46,9 +46,11 @@ h2
 
 header 
     text-align: left
+    height: 3vw
     &.synth
         justify-content: space-between
-    a
+        align-items: stretch
+    &>div a
         border-left: 1px solid rgba(0,0,0,0.2)
         color: inherit
         padding: 0vw 1vw
@@ -57,6 +59,21 @@ header
         &:hover
             transition: text-shadow 0.1s
             text-shadow: 1px 1px 0.25vw #DDF, -1px -1px 0.25vw #DDF
+
+#語言選擇
+    display: inline-flex
+    flex-direction: column
+    align-items: center
+    &>button
+        visibility: hidden
+        opacity: 0
+        transition: visibility 0s 0.75s, opacity 0.75s linear
+        font-size: 80%
+    &:hover
+        &>button
+            visibility: visible
+            opacity: 1
+            transition: opacity 0.25s
 
 .分
     display: flex

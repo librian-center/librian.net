@@ -9,6 +9,9 @@ html:
         link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet";
         link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet"; 
         script src="http://vjs.zencdn.net/4.12/video.js": 
+        script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js":
+        script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js":
+        script src="./dist/束.js":
         title:
             Librian - 世界第一(自稱)的galgame引擎
     body.synth:
@@ -27,6 +30,15 @@ html:
                 a href='https://github.com/RimoChan/Librian' target='_blank':
                     i.fa.fa-github:
                     去Github</a>
+                span#語言選擇:
+                    a:
+                        i.fa.fa-globe:
+                        language
+                    button.synth#語言--cht: 
+                        中文(繁體)
+                    button.synth#語言--chs:
+                        中文(简体)
+                    
         div#全:
             img.頭圖 src='./圖/librian.png';
             h1:
