@@ -1,4 +1,5 @@
 import 簡化 from './簡繁處理.coffee'
+import './樣式.sass'
 
 window.onload = ->
     a = $('#全, #全 *').contents().filter ->

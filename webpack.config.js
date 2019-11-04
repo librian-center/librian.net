@@ -10,7 +10,10 @@ module.exports = {
         rules: [{
             test: /\.coffee$/,
             use: ['coffee-loader']
-        }]
+        }, {
+            test: /\.sass$/,
+            use: ['style-loader', 'css-loader', 'sass-loader']
+        }],
     },
     mode: 'development',
 };
