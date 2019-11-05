@@ -21,13 +21,13 @@ html:
                 Librian
             div:
                 a href='https://doc.librian.it' target='_blank':
-                    i.fa.fa-file-text-o: 
+                    <!--  i.fa.fa-file-text-o:  -->
                     教程
                 a href='https://doc.librian.it/site/關於Librian/使用許可.html' target='_blank':
-                    i.fa.fa-copyright: 
+                    <!--  i.fa.fa-copyright:  -->
                     許可
                 a href='https://github.com/RimoChan/Librian' target='_blank':
-                    i.fa.fa-github:
+                    <!--  i.fa.fa-github:  -->
                     去Github</a>
                 span#語言選擇:
                     a:
