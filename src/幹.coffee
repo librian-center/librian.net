@@ -7,19 +7,18 @@ window.onload = ->
     for i in a
         word = i.nodeValue
         i = $(i)
-        if /^( |\n|\t)*$/.test(word)
+        if /^([\x00-\x7f])*$/.test(word)
             continue
-        i.after("<span v-if='lang==\"cht\"'>#{word}</span>")
-        i.after("<span v-if='lang==\"chs\"'>#{簡化(word)}</span>")
+        i.after("<span class='lang--cht'>#{word}</span>")
+        i.after("<span class='lang--chs'>#{簡化(word)}</span>")
         i.remove()
-    
-    v = new Vue
-        el: '#全'
-        data:
-            lang: 'cht'
-            
-    $('#語言--cht').click ->
-        v.lang = 'cht'
-    $('#語言--chs').click ->
-        v.lang = 'chs'
+    $('.lang--cht').css('display', '')
+    $('.lang--chs').css('display', 'none')
+
+    $('#用--cht').click ->
+        $('.lang--cht').css('display', '')
+        $('.lang--chs').css('display', 'none')
+    $('#用--chs').click ->
+        $('.lang--cht').css('display', 'none')
+        $('.lang--chs').css('display', '')
 
