@@ -47,14 +47,14 @@ html:
             br;
             br;
 
-            a.synth.太陽交換 href='https://github.com/RimoChan/Librian/releases/download/v1910/Librian_win64_v1910.exe':
+            a.synth.太陽交換 href='https://github.com/RimoChan/Librian/releases/download/v2001/Librian_release_v2001.exe':
                 span.b:
                     下載
                     small:
-                        (203 MB)
+                        (108 MB)
                 span.a:
                     i.fa.fa-windows style='color:#00adef':
-                    Librian v1910
+                    Librian v2001
             
             hr.synth;
             div style="width:80%;margin:0 10%;":
