@@ -15,5 +15,6 @@ module.exports = {
             use: ['style-loader', 'css-loader', 'sass-loader']
         }],
     },
-    mode: 'development',
+    // mode: 'development',
+    mode: 'production',
 };
