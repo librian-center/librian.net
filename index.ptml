@@ -55,7 +55,8 @@ html:
                 span.a:
                     i.fa.fa-windows style='color:#00adef':
                     Librian v2003
-            
+            br;
+                
             hr.synth;
             div style="width:80%;margin:0 10%;":
                 div.二分:
@@ -113,26 +114,58 @@ html:
                     sup:
                         ↑
                     
-            hr.synth; 
-            div.分 style='width:76%; margin:0 12%;':
-                div style='width:21%;':
-                    br; 
-                    img.極.星 src='./圖/center示意圖.jpg' width='100%';
-                    br; 
-                    br; 
-                div style='width:79%;':
-                    h2:
-                        Librian Center 籌建中！
-                    p: 
-                        Librian Center是自由免費的Librian項目分享平臺。
-                        br;
-                        在這裏發佈或連載你的作品，說不定是一個不錯的選擇。
-                    p: 
-                        small:
-                            不過可能需要一個github帳號才能使用。
+            #hr.synth; 
+            #div.分 style='width:76%; margin:0 12%;':
+            #    div style='width:21%;':
+            #        br; 
+            #        img.極.星 src='./圖/center示意圖.jpg' width='100%';
+            #        br; 
+            #        br; 
+            #    div style='width:79%;':
+            #        h2:
+            #            Librian Center 籌建中！
+            #        p: 
+            #            Librian Center是自由免費的Librian項目分享平臺。
+            #            br;
+            #            在這裏發佈或連載你的作品，說不定是一個不錯的選擇。
+            #        p: 
+            #            small:
+            #                不過可能需要一個github帳號才能使用。
+            #        p:
+            #            還有示意圖的文字讓我感到了我真是天才！
+            
+            hr.synth;
+            h2:
+                下載地址
+            div.分 style='width:80%; margin:0 10%;':
+                div style='width:50%;':
+                    h3:
+                        big:
+                            i.fa.fa-github:
+                        GitHub Release
                     p:
-                        還有示意圖的文字讓我感到了我真是天才！
-                        
+                        原本的下載點。
+                        br;
+                        它在外國所以可能比較慢。
+                    p:
+                        a.synth href='https://github.com/RimoChan/Librian/releases/download/v2003/Librian_win64_v2003.exe': 
+                            下載
+                div style='width:50%;':
+                    h3:  
+                        big:
+                            img.頭像 src='./圖/liblu.me.jpg';
+                        liblu.me的鏡像
+                    p:
+                        感謝 <a href='https://github.com/HujiLee'>@鸡哥</a> 幫我放了國內服務器的鏡像。
+                        br;
+                        它比較快。
+                    p:
+                        a.synth href='http://ty-file.liblu.me/ps/drive/a/6990/d/5146335759884040/p/1' target='_blank': 
+                            鏡像地址 1
+                        br;
+                        a.synth href='http://kd-file.liblu.me/2001/ps/folder/60838410357/p/1' target='_blank': 
+                            鏡像地址 2
+            
             hr.synth; 
             div:
                 © 2020 | Rimo | MPL-2.0
