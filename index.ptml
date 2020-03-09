@@ -38,7 +38,7 @@ html:
                         中文(简体)
                     
         div#全:
-            img.頭圖 src='./圖/librian.png';
+            img.頭圖 src='./圖/librian.webp';
             h1:
                 Librian 
             h2:
@@ -60,7 +60,7 @@ html:
             hr.synth;
             div style="width:80%;margin:0 10%;":
                 div.二分:
-                    img.極 src='./圖/劇本.png';
+                    img.極 src='./圖/劇本.webp';
                     div:
                         h2:
                             劇本語法清晰自然
@@ -71,10 +71,10 @@ html:
                         h2:
                             全自動演出
                         Librian提供了智能的立繪控制邏輯，包括位置、表情差分、可見性。幾乎無需手動操作。
-                    img.星 src='./圖/決策樹.png';
+                    img.星 src='./圖/決策樹.webp';
                 br;
                 div.二分:
-                    img.星 src='./圖/嵌入.png';
+                    img.星 src='./圖/嵌入.webp';
                     div:
                         h2:
                             嵌入代碼
@@ -108,7 +108,7 @@ html:
                     p:
                         總之，一起玩就好啦。
                 div style='width:25%;':
-                    img style='width:100%;' src='./圖/618775838.png';
+                    img style='width:100%;' src='./圖/618775838.webp';
                     br;
                     618775838
                     sup:
