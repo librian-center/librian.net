@@ -5,7 +5,7 @@ html:
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149850319-1"></script>
         <script>window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'UA-149850319-1'); </script>
         link href='./librian.ico' rel="shortcut icon";
-        link rel='stylesheet' href='https://synthetic.librian.it/synthetic.css'; 
+        link rel='stylesheet' href='https://synthetic.librian.net/synthetic.css'; 
         link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet";
         link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet"; 
         script src="http://vjs.zencdn.net/4.12/video.js": 
@@ -20,11 +20,11 @@ html:
                 img src='./librian.ico' style='mix-blend-mode:hard-light;height:1.5vw;width:1.5vw;';
                 Librian
             div:
-                a href='https://test.librian.it/Librian%E6%9C%AC%E9%AB%94/%E5%89%8D%E7%AB%AF/adv.html' target='_blank':
+                a href='https://test.librian.net/Librian%E6%9C%AC%E9%AB%94/%E5%89%8D%E7%AB%AF/adv.html' target='_blank':
                     DEMO
-                a href='https://doc.librian.it' target='_blank':
+                a href='https://doc.librian.net' target='_blank':
                     教程
-                a href='https://doc.librian.it/site/關於Librian/使用許可.html' target='_blank':
+                a href='https://doc.librian.net/site/關於Librian/使用許可.html' target='_blank':
                     許可
                 a href='https://github.com/RimoChan/Librian' target='_blank':
                     去Github</a>
@@ -86,7 +86,7 @@ html:
             div.視頻容器:
                 video.video-js.vjs-default-skin.vjs-big-play-centered controls preload="auto" width="684" height="540" data-setup='{"example_option":true}' poster='./視頻/截圖.jpg' src='./視頻/轉.webm':
             br;
-            a.synth.太陽交換 href='https://test.librian.it/Librian%E6%9C%AC%E9%AB%94/%E5%89%8D%E7%AB%AF/adv.html' target='_blank':
+            a.synth.太陽交換 href='https://test.librian.net/Librian%E6%9C%AC%E9%AB%94/%E5%89%8D%E7%AB%AF/adv.html' target='_blank':
                 span.b:
                     在線DEMO！
                 span.a:
@@ -128,7 +128,7 @@ html:
                         自由發佈或分享你的作品！
                         br;
                         而且是免費的！
-                    a.synth href='https://center.librian.it' target='_blank':
+                    a.synth href='https://center.librian.net' target='_blank':
                         帕秋莉♂Go！
             
             hr.synth;

@@ -1,6 +1,6 @@
 # librian網站
 
-<http://librian.it/>
+<http://librian.net/>
 
 喂這個readme怎麼寫啊？   
 要是不寫的話加readme的提示一直在這裏又好難受……
