@@ -47,14 +47,14 @@ html:
             br;
             br;
 
-            a.synth.太陽交換 href='https://github.com/RimoChan/Librian/releases/download/v2003/Librian_win64_v2003.exe':
+            a.synth.太陽交換 href='https://github.com/RimoChan/Librian/releases/download/v2008/Librian_win64_v2008.exe':
                 span.b:
                     下載
                     small:
-                        (114 MB)
+                        (121 MB)
                 span.a:
                     i.fa.fa-windows style='color:#00adef':
-                    Librian v2003
+                    Librian v2008
             br;
                 
             hr.synth;
@@ -145,34 +145,34 @@ html:
                         br;
                         它在外國所以可能比較慢。
                     p:
-                        a.synth href='https://github.com/RimoChan/Librian/releases/download/v2003/Librian_win64_v2003.exe': 
+                        a.synth href='https://github.com/RimoChan/Librian/releases/download/v2008/Librian_win64_v2008.exe': 
                             下載
                 div style='width:50%;':
                     h3:  
                         big:
                             i.fa.fa-send-o:
-                        好友們的鏡像
+                        鏡像
                     p:
-                        感謝我的好友們幫我放了國內服務器的鏡像。
+                        感謝我的好友幫我放了國內服務器的鏡像。
                         br;
-                        它們比較快。
-                    p:
-                        p.好友:
-                            img.頭像 src='./圖/liblu.me.jpg';
-                            <a href='https://github.com/HujiLee'>@鸡哥</a> 的镜像
-                        p:
-                            a.synth href='http://ty-file.liblu.me/ps/drive/a/6990/d/5146335759884040/p/1' target='_blank': 
-                                鏡像地址 1
-                        p:
-                            a.synth href='http://kd-file.liblu.me/2001/ps/folder/60838410357/p/1' target='_blank': 
-                                鏡像地址 2
+                        它很快。
+                    # p:
+                    #     p.好友:
+                    #         img.頭像 src='./圖/liblu.me.jpg';
+                    #         <a href='https://github.com/HujiLee'>@鸡哥</a> 的镜像
+                    #     p:
+                    #         a.synth href='http://ty-file.liblu.me/ps/drive/a/6990/d/5146335759884040/p/1' target='_blank': 
+                    #             鏡像地址 1
+                    #     p:
+                    #         a.synth href='http://kd-file.liblu.me/2001/ps/folder/60838410357/p/1' target='_blank': 
+                    #             鏡像地址 2
                     p: 
                         p.好友:
                             img.頭像 src='./圖/LaoshuBaby.jpg';
                             <a href='https://github.com/LaoshuBaby'>@快乐的老鼠宝宝</a> 的镜像
                         p:
-                            a.synth href='https://x-cloud-librian.oss-accelerate.aliyuncs.com/Librian_win64_v2003.exe' target='_blank': 
-                                鏡像地址 1
+                            a.synth href='https://x-cloud-librian.oss-accelerate.aliyuncs.com/Librian_win64_v2008.exe': 
+                                下載
             
             hr.synth; 
             div:
