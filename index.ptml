@@ -47,14 +47,14 @@ html:
             br;
             br;
 
-            a.synth.太陽交換 href='https://x-cloud-librian.oss-accelerate.aliyuncs.com/Librian_win64_v2008.exe':
+            a.synth.太陽交換 href='https://unigal-mirrors.oss-accelerate.aliyuncs.com/Librian_win64_2011.exe':
                 span.b:
                     下載
                     small:
-                        (121 MB)
+                        (113 MB)
                 span.a:
                     i.fa.fa-windows style='color:#00adef':
-                    Librian v2008
+                    Librian v2011
             br;
                 
             hr.synth;
@@ -145,7 +145,7 @@ html:
                         br;
                         它在外國所以可能比較慢。
                     p:
-                        a.synth href='https://github.com/RimoChan/Librian/releases/download/v2008/Librian_win64_v2008.exe': 
+                        a.synth href='https://github.com/RimoChan/Librian/releases/download/v2011/Librian_win64_2011.exe': 
                             下載
                 div style='width:50%;':
                     h3:  
@@ -171,7 +171,7 @@ html:
                             img.頭像 src='./圖/LaoshuBaby.jpg';
                             <a href='https://github.com/LaoshuBaby'>@快乐的老鼠宝宝</a> 的镜像
                         p:
-                            a.synth href='https://x-cloud-librian.oss-accelerate.aliyuncs.com/Librian_win64_v2008.exe': 
+                            a.synth href='https://unigal-mirrors.oss-accelerate.aliyuncs.com/Librian_win64_2011.exe': 
                                 下載
             
             hr.synth; 
