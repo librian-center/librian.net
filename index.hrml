@@ -24,8 +24,6 @@ html:
                     DEMO
                 a href='https://doc.librian.net' target='_blank':
                     教程
-                a href='https://doc.librian.net/site/關於Librian/使用許可.html' target='_blank':
-                    許可
                 a href='https://github.com/RimoChan/Librian' target='_blank':
                     去Github</a>
                 span#語言選擇:
@@ -47,7 +45,7 @@ html:
             br;
             br;
 
-            a.synth.太陽交換 href='https://unigal-mirrors.oss-accelerate.aliyuncs.com/Librian_win64_2011.exe':
+            a.synth.太陽交換 href='https://github.com/RimoChan/Librian/releases/download/v2011/Librian_win64_2011.exe':
                 span.b:
                     下載
                     small:
@@ -95,59 +93,39 @@ html:
             small:
                 (只有chrome能玩)
 
-                    
-            hr.synth; 
-            div.分 style='width:73%; margin:0 12%;':
-                div style='width:19%;':
-                    br; 
-                    img.極.星 src='./圖/center示意圖.jpg' width='100%';
-                    br; 
-                    br; 
-                div style='width:81%;':
-                    h2:
-                        還沒做好的 Librian Center 測試開放中
-                    p: 
-                        一起來 Librian Center 玩吧！
-                        br;
-                        自由發佈或分享你的作品！
-                        br;
-                        而且是免費的！
-                    a.synth href='https://center.librian.net' target='_blank':
-                        帕秋莉♂Go！
-            
-            hr.synth;
-            h2:
-                下載地址
-            div.分 style='width:80%; margin:0 10%;':
-                div style='width:50%;':
-                    h3:
-                        big:
-                            i.fa.fa-github:
-                        GitHub Release
-                    p:
-                        原本的下載點。
-                        br;
-                        它在外國所以可能比較慢。
-                    p:
-                        a.synth href='https://github.com/RimoChan/Librian/releases/download/v2011/Librian_win64_2011.exe': 
-                            下載
-                div style='width:50%;':
-                    h3:  
-                        big:
-                            i.fa.fa-send-o:
-                        鏡像
-                    p:
-                        感謝我的好友幫我放了國內服務器的鏡像。
-                        br;
-                        它很快。
-                    p: 
-                        p.好友:
-                            img.頭像 src='./圖/LaoshuBaby.jpg';
-                            <a href='https://github.com/LaoshuBaby'>@快乐的老鼠宝宝</a> 的镜像
-                        p:
-                            a.synth href='https://unigal-mirrors.oss-accelerate.aliyuncs.com/Librian_win64_2011.exe': 
-                                下載
+            #hr.synth;
+            #h2:
+            #    下載地址
+            #div.分 style='width:80%; margin:0 10%;':
+            #    div style='width:50%;':
+            #        h3:
+            #            big:
+            #                i.fa.fa-github:
+            #            GitHub Release
+            #        p:
+            #            原本的下載點。
+            #            br;
+            #            它在外國所以可能比較慢。
+            #        p:
+            #            a.synth href='https://github.com/RimoChan/Librian/releases/download/v2011/Librian_win64_2011.exe': 
+            #                下載
+            #    div style='width:50%;':
+            #        h3:  
+            #            big:
+            #                i.fa.fa-send-o:
+            #            鏡像
+            #        p:
+            #            感謝我的好友幫我放了國內服務器的鏡像。
+            #            br;
+            #            它很快。
+            #        p: 
+            #            p.好友:
+            #                img.頭像 src='./圖/LaoshuBaby.jpg';
+            #                <a href='https://github.com/LaoshuBaby'>@快乐的老鼠宝宝</a> 的镜像
+            #            p:
+            #                a.synth href='https://unigal-mirrors.oss-accelerate.aliyuncs.com/Librian_win64_2011.exe': 
+            #                    下載
             
             hr.synth; 
             div:
-                © 2021 | Rimo | MPL-2.0
+                © 2024 | Rimo | MPL-2.0
